@@ -18,7 +18,8 @@ dependencies:
   - intake
   - intake-xarray
   - jupyter
-  - jupyter-book
+  - jupyterlab
+  - jupyterlab-myst
   - jupyter-cache
   - jupyter_bokeh
   - mamba
@@ -43,7 +44,6 @@ dependencies:
   - scipy
   - seaborn
   - snaphu
-  - sphinx-pythia-theme
   - stackstac
   - xarray
   - zarr=2.18.4
