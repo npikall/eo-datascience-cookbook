@@ -6,17 +6,18 @@ dependencies:
   - bokeh
   - cartopy
   - cmcrameri
-  - dask==2025.2.0
+  - dask
   - datashader
   - folium
+  - fsspec
   - geopandas
   - geoviews
   - graphviz
   - holoviews
-  - huggingface_hub
   - hvplot
   - intake
   - intake-xarray
+  - ipykernel
   - jupyter
   - jupyter-book
   - jupyter-cache
@@ -29,6 +30,7 @@ dependencies:
   - numpy
   - odc-stac
   - openssl
+  - pandas
   - pip
   - pre-commit
   - pyproj
@@ -47,3 +49,5 @@ dependencies:
   - stackstac
   - xarray
   - zarr=2.18.4
+  - pip:
+    - python-gitlab
