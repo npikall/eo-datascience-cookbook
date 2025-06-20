@@ -14,9 +14,6 @@ execute:
   execute_notebooks: cache
   timeout: 600
   allow_errors: False # cells with expected failures must set the `raises-exception` cell tag
-  exclude_patterns:
-    - "team_work/*"
-    - "*_homework_exercise*"
 
 # Add a few extensions to help with parsing content
 parse:
