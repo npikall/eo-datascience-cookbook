@@ -11,7 +11,7 @@ project:
     - name: Davide Festa
     - name: Felix David Reuß
     - name: Luka Jović
-  copyright: '2024'
+  copyright: "2024"
   toc:
     - file: README.md
     - title: Preamble
@@ -21,15 +21,18 @@ project:
       children:
         - file: notebooks/courses/microwave-remote-sensing.ipynb
           children:
-            - file: notebooks/courses/microwave-remote-sensing/01_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/02_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/03_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/04_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/05_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/06_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/07_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/08_in_class_exercise.ipynb
-            - file: notebooks/courses/microwave-remote-sensing/09_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_01/01_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_01/02_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_01/03_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_02/04_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_02/05_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_02/06_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_03/07_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_03/08_in_class_exercise.ipynb
+            - file: notebooks/courses/microwave-remote-sensing/unit_03/09_in_class_exercise.ipynb
+        - file: notebooks/courses/environmental-remote-sensing.ipynb
+          children:
+            - file: notebooks/courses/environmental-remote-sensing/mozambique-droughts.ipynb
     - title: Templates
       children:
         - file: notebooks/templates/prereqs-templates.ipynb
@@ -42,10 +45,10 @@ project:
             - file: notebooks/tutorials/floodmapping.ipynb
     - title: References
       children:
-            - file: notebooks/references.ipynb
+        - file: notebooks/references.ipynb
   jupyter:
-      binder:
-        repo: projectpythia/eo-datascience-cookbook
+    binder:
+      repo: projectpythia/eo-datascience-cookbook
 site:
   options:
     logo: notebooks/images/logos/pythia_logo-white-rtext.svg
