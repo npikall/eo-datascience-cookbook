@@ -1,0 +1,44 @@
+project:
+  type: book
+
+book:
+  title: "JupyerHub Guide"
+  chapters:
+    - index.qmd
+    - part: "Unit 1"
+      chapters:
+        - text: EO Data Discovery
+          file: unit_01/01_in_class_exercise.ipynb
+        - text: Unit Conversions
+          file: unit_01/02_in_class_exercise.ipynb
+        - text: Backscattering Coefficients
+          file: unit_01/03_in_class_exercise.ipynb
+    - part: "Unit 2"
+      chapters:
+        - text: Datacubes
+          file: unit_02/04_in_class_exercise.ipynb
+        - text: Wavelength and Polarization
+          file: unit_02/05_in_class_exercise.ipynb
+        - text: Backscatter Variability
+          file: unit_02/06_in_class_exercise.ipynb
+    - part: "Unit 3"
+      chapters:
+        - text: Speckle Statistics
+          file: unit_03/07_in_class_exercise.ipynb
+        - text: Interferograms
+          file: unit_03/08_in_class_exercise.ipynb
+        - text: Phase Unwrapping
+          file: unit_03/09_in_class_exercise.ipynb
+  navbar:
+    logo: assets/images/tuw-geo-logo.svg
+  sidebar:
+    logo: assets/images/tuw-geo-logo.svg
+
+format:
+  html:
+    theme: cosmo
+    title-block-banner: "#006699"
+    title-block-banner-color: white
+
+execute:
+  freeze: true
