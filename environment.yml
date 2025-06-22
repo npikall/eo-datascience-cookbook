@@ -19,6 +19,7 @@ dependencies:
   - intake-xarray
   - ipykernel
   - jupyter
+  - jupyter-book
   - jupyterlab
   - jupyterlab-myst
   - jupyter-cache
@@ -47,6 +48,7 @@ dependencies:
   - scipy
   - seaborn
   - snaphu
+  - sphinx-pythia-theme
   - stackstac
   - xarray
   - zarr=2.18.4
